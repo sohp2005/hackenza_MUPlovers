@@ -1,0 +1,14 @@
+# runtime outputs
+runs/
+data/
+submissions/
+
+# notebooks checkpoints
+notebooks/.ipynb_checkpoints/
+
+# python
+__pycache__/
+*.pyc
+
+# mac
+.DS_Store
