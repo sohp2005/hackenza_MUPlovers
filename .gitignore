@@ -1,14 +1,75 @@
-# runtime outputs
-runs/
-data/
-submissions/
+# ==============================
+# 🔴 HACKENZA DATA (DO NOT PUSH)
+# ==============================
 
-# notebooks checkpoints
-notebooks/.ipynb_checkpoints/
+# Raw downloads
+data/raw/
 
-# python
+# Processed audio
+data/processed/
+*.wav
+*.mp3
+*.aac
+*.m4a
+*.flac
+
+# Chunk-level features
+data/chunk_vad.csv
+data/chunk_master.csv
+
+# Cached features
+cache/
+cache/*
+cache/**/*.npy
+
+# Logs
+data/logs/
+logs/
+*.log
+
+# Temp binaries
+*.bin
+*.tmp
+
+# ==============================
+# 🐍 PYTHON
+# ==============================
+
 __pycache__/
-*.pyc
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.so
+*.dylib
 
-# mac
+# Virtual envs
+.venv/
+venv/
+env/
+ENV/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Mac
 .DS_Store
+
+# VSCode
+.vscode/
+
+# ==============================
+# 🚫 ML MODELS (LATER)
+# ==============================
+
+*.pt
+*.pth
+*.ckpt
+*.onnx
+
+# ==============================
+# Google Drive sync temp files
+# ==============================
+*.gdoc
+*.gsheet
+*.gslides
