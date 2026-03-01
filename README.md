@@ -293,11 +293,10 @@ We ran the following ablations to justify design choices:
 
 | Model | Val Accuracy |
 |---|---|
-| Mean pooling (baseline) | — |
-| GRU only | — |
-| GRU + Attention (783-dim, WavLM-Base) | — |
-| GRU + Attention (1039-dim, WavLM-Large) | — |
-| Full model (BiGRU + MultiheadAttn + BatchNorm) | — |
+| Mean pooling (baseline) | 0.8333 |
+| GRU only | 0.9189 |
+| GRU + Attention (783-dim, WavLM-Base) | 0.9167 |
+| Full model (BiGRU + MultiheadAttn + BatchNorm) | 0.79 |
 
 *(Fill in accuracy numbers after training)*
 
