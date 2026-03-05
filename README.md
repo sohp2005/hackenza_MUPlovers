@@ -111,7 +111,8 @@ Three datasets were used for training:
 | External | Additional collected data | external/ |
 | External2 | Additional collected data | external2/ |
 
-All datasets go through the same preprocessing pipeline. Test set predictions are generated from `data/test_ids.csv`.
+All datasets go through the same preprocessing pipeline. Test set predictions are generated from `data/test_ids.csv` and results in 'results.csv' for the same. 
+Please note all final versions of the code used are under notebooks_final directory.
 
 ---
 
@@ -191,6 +192,7 @@ hackenza_MUPlovers/
 │   └── scaler_1039.pkl            # Fitted StandardScaler
 │
 ├── .gitignore
+|-- results.csv
 └── README.md
 ```
 
